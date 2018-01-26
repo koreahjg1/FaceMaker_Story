@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F321A327201432CF00FA93CF /* story1.png in Resources */ = {isa = PBXBuildFile; fileRef = F321A326201432CF00FA93CF /* story1.png */; };
+		F321A3292014571400FA93CF /* FaceAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F321A3282014571400FA93CF /* FaceAreaButton.swift */; };
 		F3D15461200EDA4B00CD1551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D15460200EDA4B00CD1551 /* AppDelegate.swift */; };
 		F3D15463200EDA4B00CD1551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D15462200EDA4B00CD1551 /* ViewController.swift */; };
 		F3D15466200EDA4B00CD1551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D15464200EDA4B00CD1551 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F321A326201432CF00FA93CF /* story1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = story1.png; sourceTree = "<group>"; };
+		F321A3282014571400FA93CF /* FaceAreaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAreaButton.swift; sourceTree = "<group>"; };
 		F3D1545D200EDA4B00CD1551 /* FaceMaker_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceMaker_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D15460200EDA4B00CD1551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D15462200EDA4B00CD1551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,10 +103,12 @@
 			children = (
 				F3D15460200EDA4B00CD1551 /* AppDelegate.swift */,
 				F3D15462200EDA4B00CD1551 /* ViewController.swift */,
+				F321A3282014571400FA93CF /* FaceAreaButton.swift */,
 				F3D15464200EDA4B00CD1551 /* Main.storyboard */,
 				F3D15467200EDA4B00CD1551 /* Assets.xcassets */,
 				F3D15469200EDA4B00CD1551 /* LaunchScreen.storyboard */,
 				F3D1546C200EDA4B00CD1551 /* Info.plist */,
+				F321A326201432CF00FA93CF /* story1.png */,
 			);
 			path = FaceMaker_Story;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				F3D1546B200EDA4B00CD1551 /* LaunchScreen.storyboard in Resources */,
 				F3D15468200EDA4B00CD1551 /* Assets.xcassets in Resources */,
 				F3D15466200EDA4B00CD1551 /* Main.storyboard in Resources */,
+				F321A327201432CF00FA93CF /* story1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				F3D15463200EDA4B00CD1551 /* ViewController.swift in Sources */,
 				F3D15461200EDA4B00CD1551 /* AppDelegate.swift in Sources */,
+				F321A3292014571400FA93CF /* FaceAreaButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VHXA3TE4B;
 				INFOPLIST_FILE = FaceMaker_Story/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hong.FaceMaker-Story";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VHXA3TE4B;
 				INFOPLIST_FILE = FaceMaker_Story/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hong.FaceMaker-Story";
 				PRODUCT_NAME = "$(TARGET_NAME)";
