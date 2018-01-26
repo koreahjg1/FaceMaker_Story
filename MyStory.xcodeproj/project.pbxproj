@@ -38,17 +38,17 @@
 /* Begin PBXFileReference section */
 		F321A326201432CF00FA93CF /* story1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = story1.png; sourceTree = "<group>"; };
 		F321A3282014571400FA93CF /* FaceAreaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAreaButton.swift; sourceTree = "<group>"; };
-		F3D1545D200EDA4B00CD1551 /* FaceMaker_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceMaker_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D1545D200EDA4B00CD1551 /* MyStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D15460200EDA4B00CD1551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D15462200EDA4B00CD1551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3D15465200EDA4B00CD1551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3D15467200EDA4B00CD1551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D1546A200EDA4B00CD1551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3D1546C200EDA4B00CD1551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D15471200EDA4B00CD1551 /* FaceMaker_StoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMaker_StoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D15471200EDA4B00CD1551 /* MyStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D15475200EDA4B00CD1551 /* FaceMaker_StoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaker_StoryTests.swift; sourceTree = "<group>"; };
 		F3D15477200EDA4B00CD1551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D1547C200EDA4B00CD1551 /* FaceMaker_StoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMaker_StoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D1547C200EDA4B00CD1551 /* MyStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D15480200EDA4B00CD1551 /* FaceMaker_StoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaker_StoryUITests.swift; sourceTree = "<group>"; };
 		F3D15482200EDA4B00CD1551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		F3D15454200EDA4B00CD1551 = {
 			isa = PBXGroup;
 			children = (
-				F3D1545F200EDA4B00CD1551 /* FaceMaker_Story */,
-				F3D15474200EDA4B00CD1551 /* FaceMaker_StoryTests */,
-				F3D1547F200EDA4B00CD1551 /* FaceMaker_StoryUITests */,
+				F3D1545F200EDA4B00CD1551 /* MyStory */,
+				F3D15474200EDA4B00CD1551 /* MyStoryTests */,
+				F3D1547F200EDA4B00CD1551 /* MyStoryUITests */,
 				F3D1545E200EDA4B00CD1551 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		F3D1545E200EDA4B00CD1551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3D1545D200EDA4B00CD1551 /* FaceMaker_Story.app */,
-				F3D15471200EDA4B00CD1551 /* FaceMaker_StoryTests.xctest */,
-				F3D1547C200EDA4B00CD1551 /* FaceMaker_StoryUITests.xctest */,
+				F3D1545D200EDA4B00CD1551 /* MyStory.app */,
+				F3D15471200EDA4B00CD1551 /* MyStoryTests.xctest */,
+				F3D1547C200EDA4B00CD1551 /* MyStoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3D1545F200EDA4B00CD1551 /* FaceMaker_Story */ = {
+		F3D1545F200EDA4B00CD1551 /* MyStory */ = {
 			isa = PBXGroup;
 			children = (
 				F3D15460200EDA4B00CD1551 /* AppDelegate.swift */,
@@ -110,33 +110,33 @@
 				F3D1546C200EDA4B00CD1551 /* Info.plist */,
 				F321A326201432CF00FA93CF /* story1.png */,
 			);
-			path = FaceMaker_Story;
+			path = MyStory;
 			sourceTree = "<group>";
 		};
-		F3D15474200EDA4B00CD1551 /* FaceMaker_StoryTests */ = {
+		F3D15474200EDA4B00CD1551 /* MyStoryTests */ = {
 			isa = PBXGroup;
 			children = (
 				F3D15475200EDA4B00CD1551 /* FaceMaker_StoryTests.swift */,
 				F3D15477200EDA4B00CD1551 /* Info.plist */,
 			);
-			path = FaceMaker_StoryTests;
+			path = MyStoryTests;
 			sourceTree = "<group>";
 		};
-		F3D1547F200EDA4B00CD1551 /* FaceMaker_StoryUITests */ = {
+		F3D1547F200EDA4B00CD1551 /* MyStoryUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F3D15480200EDA4B00CD1551 /* FaceMaker_StoryUITests.swift */,
 				F3D15482200EDA4B00CD1551 /* Info.plist */,
 			);
-			path = FaceMaker_StoryUITests;
+			path = MyStoryUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3D1545C200EDA4B00CD1551 /* FaceMaker_Story */ = {
+		F3D1545C200EDA4B00CD1551 /* MyStory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3D15485200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_Story" */;
+			buildConfigurationList = F3D15485200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStory" */;
 			buildPhases = (
 				F3D15459200EDA4B00CD1551 /* Sources */,
 				F3D1545A200EDA4B00CD1551 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = FaceMaker_Story;
+			name = MyStory;
 			productName = FaceMaker_Story;
-			productReference = F3D1545D200EDA4B00CD1551 /* FaceMaker_Story.app */;
+			productReference = F3D1545D200EDA4B00CD1551 /* MyStory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F3D15470200EDA4B00CD1551 /* FaceMaker_StoryTests */ = {
+		F3D15470200EDA4B00CD1551 /* MyStoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3D15488200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_StoryTests" */;
+			buildConfigurationList = F3D15488200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStoryTests" */;
 			buildPhases = (
 				F3D1546D200EDA4B00CD1551 /* Sources */,
 				F3D1546E200EDA4B00CD1551 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				F3D15473200EDA4B00CD1551 /* PBXTargetDependency */,
 			);
-			name = FaceMaker_StoryTests;
+			name = MyStoryTests;
 			productName = FaceMaker_StoryTests;
-			productReference = F3D15471200EDA4B00CD1551 /* FaceMaker_StoryTests.xctest */;
+			productReference = F3D15471200EDA4B00CD1551 /* MyStoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3D1547B200EDA4B00CD1551 /* FaceMaker_StoryUITests */ = {
+		F3D1547B200EDA4B00CD1551 /* MyStoryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3D1548B200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_StoryUITests" */;
+			buildConfigurationList = F3D1548B200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStoryUITests" */;
 			buildPhases = (
 				F3D15478200EDA4B00CD1551 /* Sources */,
 				F3D15479200EDA4B00CD1551 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				F3D1547E200EDA4B00CD1551 /* PBXTargetDependency */,
 			);
-			name = FaceMaker_StoryUITests;
+			name = MyStoryUITests;
 			productName = FaceMaker_StoryUITests;
-			productReference = F3D1547C200EDA4B00CD1551 /* FaceMaker_StoryUITests.xctest */;
+			productReference = F3D1547C200EDA4B00CD1551 /* MyStoryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Jonggi Hong";
+				ORGANIZATIONNAME = "Jonggi Hong and Kyungjun Lee";
 				TargetAttributes = {
 					F3D1545C200EDA4B00CD1551 = {
 						CreatedOnToolsVersion = 9.2;
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F3D15458200EDA4B00CD1551 /* Build configuration list for PBXProject "FaceMaker_Story" */;
+			buildConfigurationList = F3D15458200EDA4B00CD1551 /* Build configuration list for PBXProject "MyStory" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3D1545C200EDA4B00CD1551 /* FaceMaker_Story */,
-				F3D15470200EDA4B00CD1551 /* FaceMaker_StoryTests */,
-				F3D1547B200EDA4B00CD1551 /* FaceMaker_StoryUITests */,
+				F3D1545C200EDA4B00CD1551 /* MyStory */,
+				F3D15470200EDA4B00CD1551 /* MyStoryTests */,
+				F3D1547B200EDA4B00CD1551 /* MyStoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		F3D15473200EDA4B00CD1551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3D1545C200EDA4B00CD1551 /* FaceMaker_Story */;
+			target = F3D1545C200EDA4B00CD1551 /* MyStory */;
 			targetProxy = F3D15472200EDA4B00CD1551 /* PBXContainerItemProxy */;
 		};
 		F3D1547E200EDA4B00CD1551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F3D1545C200EDA4B00CD1551 /* FaceMaker_Story */;
+			target = F3D1545C200EDA4B00CD1551 /* MyStory */;
 			targetProxy = F3D1547D200EDA4B00CD1551 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,11 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8VHXA3TE4B;
-				INFOPLIST_FILE = FaceMaker_Story/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				DEVELOPMENT_TEAM = L3J76SNXYJ;
+				INFOPLIST_FILE = MyStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hong.FaceMaker-Story";
+				PRODUCT_BUNDLE_IDENTIFIER = iam.umd.edu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,11 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8VHXA3TE4B;
-				INFOPLIST_FILE = FaceMaker_Story/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				DEVELOPMENT_TEAM = L3J76SNXYJ;
+				INFOPLIST_FILE = MyStory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hong.FaceMaker-Story";
+				PRODUCT_BUNDLE_IDENTIFIER = iam.umd.edu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMaker_Story.app/FaceMaker_Story";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStory.app/MyStory";
 			};
 			name = Debug;
 		};
@@ -492,7 +492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMaker_Story.app/FaceMaker_Story";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStory.app/MyStory";
 			};
 			name = Release;
 		};
@@ -531,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3D15458200EDA4B00CD1551 /* Build configuration list for PBXProject "FaceMaker_Story" */ = {
+		F3D15458200EDA4B00CD1551 /* Build configuration list for PBXProject "MyStory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3D15483200EDA4B00CD1551 /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3D15485200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_Story" */ = {
+		F3D15485200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3D15486200EDA4B00CD1551 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3D15488200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_StoryTests" */ = {
+		F3D15488200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3D15489200EDA4B00CD1551 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3D1548B200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "FaceMaker_StoryUITests" */ = {
+		F3D1548B200EDA4B00CD1551 /* Build configuration list for PBXNativeTarget "MyStoryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3D1548C200EDA4B00CD1551 /* Debug */,
